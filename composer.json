@@ -1,23 +1,21 @@
 {
     "name": "bharathox/testpackage",
-    "description": "A simple module",
+    "version": "1.0.0",
+    "description": "Test package",
     "type": "magento2-module",
+    "require": {
+        "magento/framework": "102.*|103.*",
+        "php": "~7.0.13||~7.1.0||~7.2.0||~7.3.0||~7.4.0||~8.1.0"
+
+    },
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Bharath Kumar J",
-            "email": "bharath@oxsoftwares.com"
-        }
-    ],
-    "minimum-stability": "stable",
     "autoload": {
         "files": [
             "registration.php"
         ],
         "psr-4": {
-            "OX\\Test\\": ""
+            "OX\\OrderComments\\": ""
         }
-    },
-    "require": {}
+    }
 }
 
