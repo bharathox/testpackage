@@ -1,0 +1,23 @@
+{
+    "name": "bharathox/testpackage",
+    "description": "A simple module",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bharath Kumar J",
+            "email": "bharath@oxsoftwares.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "OX\\Test\\": ""
+        }
+    },
+    "require": {}
+}
+
